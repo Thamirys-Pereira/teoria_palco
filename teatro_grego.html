@@ -8,82 +8,115 @@
 
     <meta name="keywords" content="teatro, estudos, história, grécia, idade média, renascimento, didática">
 
+    <link rel="icon" type="image/png" href="imagem/favaicon.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
 
     <title>Teatro&Palco - Teatro Grego</title>
 </head>
 <body>
     
-    <header class="menu">
-
-        <ul class="menu__list">
-
-            <li class="menu__list--01"><a href="index.html" class="menu__list--decoration">Logo</a></li>
-
-            <li class="menu__list--middle"><a href="teatro_primitivo.html" class="menu__list--decoration">Teatro Primitivo</a></li>
-
-            <li class="menu__list--middle"><a href="teatro_grego.html" class="menu__list--decoration">Teatro Grego</a></li>
-
-            <li class="menu__list--middle"><a href="teatro_medieval.html" class="menu__list--decoration">Teatro Medieval</a></li>
-
-            <li class="menu__list--middle"><a href="teatro_renascentista.html" class="menu__list--decoration">Teatro Renascentista</a></li>
-
-            <li class="menu__item com-submenu">
-                <a href="" class="menu__list--decoration">
-                    <img src="imagem/menu-burger.png" width="25px" height="25px" class="zoom">
-                </a>
-
-                <ul class="submenu">
-
-
-                    <br><br><br>
-
-                    <li class="submenu__item">
-                        <a href="quem_somos/quem_somos.html" class="menu__list--decoration">Sobre nós</a>
-                    </li>
-
-                    <br>
-
-                    <li class="submenu__item">
-                        <a href="contato/contato.html" class="menu__list--decoration">Contato</a>
-                    </li>
-
-                    <br>
-
-                    <li class="submenu__item">
-                        <a href="bibliografia/bibliografia.html" class="menu__list--decoration">Bibliografia</a>
-                    </li>
+    <header class="container-fluid backBlack">
+        <ul class="row">
+            <div class="col-md-2">
+                <li>
                     
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="imagem/search-interface-symbol.png"></button>
+                        </div>
+                      </div>
+                    
+                </li>
+            </div>
+
+            <div class="col-md-8 nav justify-content-center">
+                <li class="nav-item"><a href="index.html"><img src="imagem/logo_01-removebg-preview.png" width="80px" height="80px"></a></li>
+            </div>
+
+            <div class="col-md-2 nav justify-content-end">
+
+                <li class="menu with-submenu"><a href=""><img class="zoom" src="imagem/menu-burger.png" width="25px" height="25px"></a>
+
+                    <ul class="submenu">
+                        <li><a class="textType textType--decoration" href="quem_somos/quem_somos.html">Sobre nós</a></li>
+
+                        <li><a class="textType textType--decoration" href="contato/contato.html">Fale conosco</a></li>
+
+                        <li><a class="textType textType--decoration" href="bibliografia/bibliografia.html">Bibliografia</a></li>
+
+                        <li><a class="textType textType--decoration" href="espacos_para_estudar/espacos_para_estudar.html">Onde estudar</a></li>
+                    </ul>
+                </li>
+            </div>
+        </ul>
+        
+    </header>
+    
+    <nav class="container-fluid backBlack navBorder navPosition">
+        <ul class="row">
+            <div class="col-md-3 nav justify-content-center">
+                <li><a class="textType textType--decoration" href="teatro_primitivo.html">Teatro Primitivo</a></li>
+            </div>
+
+            <div class="col-md-3 nav justify-content-center">
+                <lis><a class="textType textType--decoration" href="teatro_grego.html">Teatro Grego</a></lis>
+            </div>
+
+            <div class="col-md-3 nav justify-content-center">
+                <li><a class="textType textType--decoration" href="teatro_medieval.html">Teatro Medieval</a></li>
+            </div>
+
+            <div class="col-md-3 nav justify-content-center">
+                <li><a class="textType textType--decoration" href="teatro_renascentista.html">Teatro Renascentista</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="container priority">
+        <main class="row">
+            <div class="col-md-1"></div>
+
+            <section class="col-md-10">
+                <article>
+                    <h1 class="textAlign titleDecoration">Teatro Grego</h1>
+
                     <br>
 
-                    <li class="subnav__item">
-                        <a href="espacos_para_estudar/espacos_para_estudar.html" class="menu__list--decoration">Onde estudar</a>
-                    </li>
-                </ul>
-
-            </li>
-        
-        </ul>
-    </header>
-
-    <div>
-        <main id="inicio">
-            <section>
-                <article>
-                    <h1>Teatro Grego</h1>
-
-                    <p>O drama ocidental, assim como o conhecemos, teve seus primórdios junto à civilização grega, no final do século VII a.C.</p>
+                    <p class="textAlign">O drama ocidental, assim como o conhecemos, teve seus primórdios junto à civilização grega, no final do século VII a.C.</p>
 
                     <p>Suas raízes estão relacionadas ao ditirambo, uma evolução proveniente dos rituais realizados pelos seguidores de Dionísio. O mito de Dionísio, por ter-se fixado tardiamente na Península de Peloponeso, quando as poesias épicas e seus heróis já circulavam, por contar com uma imensa variabilidade de ações, possibilitou que dos rituais em sua honra surgissem as primeiras formas dramáticas ocidentais que evoluiria a ponto de chegarmos a toda a complexidade da dramaturgia e das encenações realizadas na Grécia Antiga.</p>
 
-                    <h2>Dionísio</h2>
+                    <br><br>
 
-                    <p>Dionísio, filho de Zeus e da tebana Sêmele, nascido duas vezes, conhecido na mitologia grega como deus do vinho, da agricultura, do êxtase, das metamorfoses e do teatro.</p>
+                    <h2 class="textAlign titleDecoration">Dionísio</h2>
 
-                    <figure class="html5">
-                        <img src="imagem/deus_dionisio.jpg" alt="Deus Dionísio" width="200xp" height="400xp">
-                        <figcaption>Dionísio. Museu do Louvre, Paris, França.</figcaption>
-                    </figure>
+                    <br>
+
+                    <p class="textAlign">Dionísio, filho de Zeus e da tebana Sêmele, nascido duas vezes, conhecido na mitologia grega como deus do vinho, da agricultura, do êxtase, das metamorfoses e do teatro.</p>
+
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 card imgPosition contactBorder embed-responsive" style="width: 200x; height: 460px;">
+                            <figure class="html5">
+                                <img src="imagem/deus_dionisio.jpg" alt="Deus Dionísio" width="200xp" height="400xp">
+                                
+                                <div class="card-body">
+                                    <figcaption class="card-text">Dionísio. Museu do Louvre, Paris, França.</figcaption>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <br>
+                    
+                    
+
 
                     <p>Hera, esposa de Zeus, ao descobrir sobre a gravidez de Sêmele sentiu-se enciumada, disfarçou-se de criada da jovem e, fingiu duvidar da origem divina do bebê que Sêmele carregava no ventre, convencendo-a a pedir que seu amante provasse sua divindade.</p>
 
@@ -93,38 +126,71 @@
 
                     <p>Em homenagem ao Deus do vinho, os gregos faziam grandes festas, nas quais seus adoradores dançavam uma dança de abandono que representava o êxtase causado pelo vinho. Tal dança era acompanhada por movimentos dramáticos e hinos cantados em coro. Nasciam assim os Ritos Dionisíacos (segunda relação com o teatro).</p>
 
-                    <figure class="html5">
-                        <img src="imagem/ritos_dionisiacos.jpg" alt="pintura representando os rituais em homenagem a Dionisio na Grécia Antiga" width="600xp" height="300xp">
-
-                        <figcaption>A juventude de Baco, de William-Adolphe Boughereau, 1884.</figcaption>
-                    </figure>
+                    
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 card imgPosition contactBorder embed-responsive" style="width: 600px; height: 360px;">
+                            <figure class="html5">
+                                <img src="imagem/ritos_dionisiacos.jpg" alt="pintura representando os rituais em homenagem a Dionisio na Grécia Antiga" width="600xp" height="300xp">
+                                
+                                <div class="card-body">
+                                    <figcaption class="card-text">A juventude de Baco, de William-Adolphe Boughereau, 1884.</figcaption>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    
+                    <br>
 
                     <p>Nas Dionísias urbanas, o instrumento musical era a flauta e o verso chamado Ditirambo. Os participantes usavam máscaras que simbolizavam a transformação a transformação dramática.</p>
 
                     <p>Portanto, nos Ritos Dionisíacos surgiram as primeiras manifestações teatrais, gerando a concepção de Dioniso como <strong>Deus do Teatro.</strong></p>
 
-                    <h2>Drama</h2>
+                    <br><br>
+
+                    <h2 class="textAlign titleDecoration">Drama</h2>
+
+                    <br>
 
                     <p>Com a evolução do drama e dos festivais de teatro na Grécia Antiga, acompanhamos a formalização daquele que seria o primeiro gênero dramático levantado por Aristóteles: <strong>a tragédia.</strong></p>
 
                     <p>Está, após anos de formação e consolidação, apresentava uma estrutura rígida e praticamente imutável. Era constituída por cinco atos e, além dos atores, intervinha o coro, que manifestava a voz do bom senso, da harmonia, da moderação, face à exaltação dos protagonistas. A mesma também sempre se constituiria com a presença de um herói, personagens secundários e um antagonista.</p>
 
-                    <figure class="html5">
-                        <img src="imagem/tragedia_coro.jpg" alt="grupo de pessoas mascaradas encenando uma peça">
-                        <figcaption>Representação de um coro em uma cena trágica.</figcaption>
-                    </figure>
 
-                    <h3>Principais elementos do drama:</h3>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 card imgPosition contactBorder embed-responsive">
+                            <figure class="html5">
+                                <img src="imagem/tragedia_coro.jpg" alt="grupo de pessoas mascaradas encenando uma peça">
+                                
+                                <div class="card-body">
+                                    <figcaption class="card-text">Representação de um coro em uma cena trágica.</figcaption>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                   
+                    <br>
+                    
+                    <h4 class="textAlign titleDecoration">Principais elementos do drama:</h4>
 
-                    <ul>
+                    <br>
+
+                    <ul class="container">
                         <li><strong>Montagem:</strong> espetáculo, maquiagem, figurino, iluminação, cenografia.</li>
                         <li><strong>Enredo:</strong> trama; suporte principal de uma representação. Inclui introdução, conflito, clímax, resolução e desfecho.</li>
                         <li><strong>Conflito:</strong> tensão existente em uma peça, entre personagens, dentro de personagens ou entre um personagem e uma força externa.</li>
                     </ul>
 
-                    <h2>Tragédia</h2>
+                    <br><br>
 
-                    <p>De acordo com o filósofo Aristóteles, em sua obra Poética, a tragédia se caracteriza como</p>
+                    <h2 class="textAlign titleDecoration">Tragédia</h2>
+
+                    <br>
+
+                    <p class="textAlign">De acordo com o filósofo Aristóteles, em sua obra Poética, a tragédia se caracteriza como</p>
 
                     <!--inicio citação-->
 
@@ -134,64 +200,112 @@
 
                     <p>Retratada por um caráter mais sério e solene, com personagens humanos pertencentes às classes nobres, como reis e prìncepes, que sofriam nas mãos dos deuses e do destino. Sua estrutura consiste num final trágico, na qual a temática era baseada no sofrimento e no infortúnio do protagonista.</p>
 
-                    <figure class="html5">
-                        <img src="imagem/antigona_sofrimento.jpeg" alt="Pintura representando cena trágica da heroina Antigona, da peça de mesmo nome." width="450xp" height="450xp">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 card imgPosition contactBorder embed-responsive" style="width: 450px; height: 500px;">
+                            <figure class="html5">
+                                <img src="imagem/antigona_sofrimento.jpeg" alt="Pintura representando cena trágica da heroina Antigona, da peça de mesmo nome." width="450xp" height="450xp">
+                                
+                                <div class="card-body">
+                                    <figcaption class="card-text">Antigone au chevet de Polynice, de Jean-Joseph Constant.</figcaption>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                   
+                    <br><br>
 
-                        <figcaption>Antigone au chevet de Polynice, de Jean-Joseph Constant.</figcaption>
-                    </figure>
+                    <h4 class="textAlign titleDecoration">Autores trágicos</h4>
 
-                    <h3>Autores trágicos</h3>
+                    <br>
 
-                    <h4>Ésquilo (cerca de 525 a.C a 456 a.C)</h4>
+                    <h5><strong>Ésquilo (cerca de 525 a.C a 456 a.C)</strong></h5>
 
                     <p>Considerado o fundador do gênero, sete peças suas sobreviveram à destruição do tempo: “Os persas”, “Sete contra Tebas”, “As Suplicantes”, “Prometeu Acorrentado”, “Agamêmnon”, “Coéforas” e “Eumênides”.</p>
 
-                    <h4>Sófocles (496 a.C a 406 a.C)</h4>
+                    <br>
+
+                    <h5><strong>Sófocles (496 a.C a 406 a.C)</strong></h5>
 
                     <p>Importante tragediógrafo, também trabalhava como ator. Entre suas peças estão a trilogia “Édipo Rei”, “Édipo em Colona” e "Antígona”.</p>
 
-                    <h4>Eurípedes (485 a.C a 406 a.C)</h4>
+                    <br>
+
+                    <h5><strong>Eurípedes (485 a.C a 406 a.C)</strong></h5>
 
                     <p>Pouco se sabe sobre sua vida. Ainda assim, é dele o maior número de peças que chegaram até nós, São 18 no total, entre elas: “Medéia”, “As bacantes”, “Heracles”, “Electra”, “Ifigênia em Áulis” e “Orestes”.</p>
 
-                    <h2>Comédia</h2>
+                    <br><br>
+
+                    <h2 class="textAlign titleDecoration">Comédia</h2>
+
+                    <br>
 
                     <p>Originam-se nas cerimônias fálicas, orgias e canções em honra a Dionìsio, famosas em muitas das cidades da Ática, que caracterizavam-se como ruidosos carnavais, em que a palhaçada grosseira e o humor coexistiam.</p>
 
                     <p>A comédia antiga foi o período áureo da comédia política, que satiriza a sociedade e os homens públicos e seus feitos, as tradições e a religião. A comédia nova é linear, composta por cinco atos, usa máscaras que se aproximam da realidade, figurinos contemporâneos e o coro é abolido. Suas temáticas concentram-se na individualidade dos personagens e na crítica de costumes (comédia de costumes).</p>
 
-                    <figure class="html5">
-                        <img src="imagem/comedia_grecia.jpg" alt="escultura grega" width="450xp" height="400xp">
-
-                        <figcaption>Escultura grega</figcaption>
-                    </figure>
-
-                    <p>De acordo com o filósofo Aristóteles, em sua obra Poética, a comédia se caracteriza como</p>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 card imgPosition contactBorder embed-responsive" style="width: 450px; height: 450px;">
+                            <figure class="html5">
+                                <img src="imagem/comedia_grecia.jpg" alt="escultura grega" width="450xp" height="400xp">
+                                
+                                <div class="card-body">
+                                    <figcaption class="card-text">Escultura grega</figcaption>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <br>
+                    
+                    <p class="textAlign">De acordo com o filósofo Aristóteles, em sua obra Poética, a comédia se caracteriza como</p>
 
                     <!--inicio citação-->
                     
-                    <p>Imitação de homens inferiores, não quanto a toda espécie de vícios, mas só quanto àquela parte do torpe que é ridículo.</p>
+                    <p class="textAlign">Imitação de homens inferiores, não quanto a toda espécie de vícios, mas só quanto àquela parte do torpe que é ridículo.</p>
 
                     <!--fim citação-->
 
-                    <h3>Autores na comédia</h3>
+                    <br><br>
 
-                    <h4>Aristófanes (447 a.C. a 385 a.C.)</h4>
+                    <h4 class="textAlign titleDecoration">Autores na comédia</h4>
+
+                    <br>
+
+                    <h5><strong>Aristófanes (447 a.C. a 385 a.C.)</strong></h5>
 
                     <p>Considerado o maior autor da comédia antiga, escreveu mais de 40 peças, das quais conhecemos apenas 11, entre elas: “Lisístrata”, “As Vespas”, “As Nuvens” e “Assembléia de Mulheres”.</p>
 
-                    <h4>Menandro (343 a.C. a 291 a.C.)</h4>
+                    <br>
+
+                    <h5><strong>Menandro (343 a.C. a 291 a.C.)</strong></h5>
 
                     <p>Principal comediógrafo da comédia nova, mais de 100 peças suas chegaram recentemente até nós. Muitas conhecemos apenas por título ou por fragmentos citados por outros autores antigos, com exceção de “O Misantropo”, uma de suas oito peças premiadas, cujo texto completo, preservado num papiro egípcio, foi encontrado e publicado em 1958.</p>
 
-                    <h2>A "Poética"</h2>
+                    <br><br>
 
-                    <figure>
-                        <img src="imagem/a_poetica.jpg" alt="capa da obra Poética, de Aristóteles" width="300xp" height="500xp">
+                    <h2 class="textAlign titleDecoration">A "Poética"</h2>
 
-                        <figcaption>Edição de 1780 de "Poética", de Aristóteles</figcaption>
-                    </figure>
+                    <br>
 
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 card imgPosition contactBorder embed-responsive" style="width: 410px; height: 550px;">
+                            <figure class="html5">
+                                <img src="imagem/a_poetica.jpg" alt="capa da obra Poética, de Aristóteles" width="300xp" height="500xp">
+                                
+                                <div class="card-body">
+                                    <figcaption class="card-text">Edição de 1780 de "Poética", de Aristóteles</figcaption>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <br>
+                    
                     <p>Além de os gregos serem tidos como inventores do teatro ocidental, eles também são os inventores da reflexão sobre o mesmo. A “Poética” é a obra que marca essa reflexão e serve como paradigma para tudo o que foi feito depois.</p>
 
                     <p>Os gregos viam a arte como imitação. A distinção dos gêneros poéticos se dava pelo objeto da imitação e a maneira de imitar. Na obra de Aristóteles, o filósofo grego estabelece critérios objetivos para se analisar um texto poético, define a tragédia, suas partes, hierarquiza os elementos mais importantes do gênero e estabelece parâmetros críticos. Aristóteles não fala em inspiração, à ele a imitação é entendida como o domínio de uma técnica, que pode ser exercitada e adquirida.O autor considera a recepção e a função da obra de arte; a tragédia suscita emoções, como terror e piedade atravès dos quais o espectador seria levado a uma purificação (catarse), que seria a fonte do prazer estético.</p>
@@ -201,16 +315,25 @@
     </div>
 
     <div>
-        <a href="#inicio">voltar ao inicio</a>
-    </div>
+        <footer class="container-fluid backBlack footerPosition footerBorder">
+            <div class="row">
+                <div class="col-md-3 textFooter justify-content-start d-flex align-items-end" >
+                    
+                    <p>Teoria&Palco: <small>conteúdos teóricos teatrais.&copy; 2024</small></p>
+            
+                </div>
+                
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
 
-    <br>
-
-    <footer>
-        <p>Teoria&Palco: conteúdos teóricos teatrais.</p> 
-        <p>&copy; 2024</p>
-        <p>Siga-nos:<a href="https://www.instagram.com/teoria_palco/?next=%2F">Instagram</a></p>
-     </footer>
+                <div class="col-md-3 textFooter justify-content-end d-flex align-items-end">
+                    <p>Siga-nos:<br><a class="instaPosition" href="https://www.instagram.com/teoria_palco/?next=%2F"><img src="../imagem/instagram.png"></a></p>
+                </div>
+            </div>
+        </footer>
+        </div>
+</body>
+</html>
 
     
     
